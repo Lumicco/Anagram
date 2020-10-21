@@ -35,7 +35,7 @@ int main()
     do
     {// On choisit un mot
 
-        ifstream dico(/*path to dico.txt file*/);
+        ifstream dico("./dico.txt");
         string motMystere;
 
         if(dico)
@@ -55,7 +55,7 @@ int main()
             cout << "ERREUR" << endl;
         }
 
-        //On mélange les lettres du mot
+        //On mÃ©lange les lettres du mot
         string motMelange( melange(motMystere) );
 
         //On demande quel est le mot
