@@ -1,5 +1,6 @@
 # Anagram
 Simple anagram game in French
+
 EN: To play, create a .txt file called 'dico' and fill it with words (preferably in all caps and seperated by line breaks). You then need to add it to the same folder as the .cpp.
 You can find premade dictionary files online.
 
